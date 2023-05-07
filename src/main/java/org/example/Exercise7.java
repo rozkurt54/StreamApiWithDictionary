@@ -7,6 +7,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Exercise7 {
+
+    // Find the longest word in the dictionary
     public static void main(String[] args) throws IOException {
         final List<String> words = Files.readAllLines(Paths.get("src/main/resources/", "dictionary.txt"));
 
